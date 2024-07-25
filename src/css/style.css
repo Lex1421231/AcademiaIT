@@ -32,7 +32,7 @@ li {
 div.btn_content:hover {
     display: flex;
     color: #913d88;
-    background-image: url('../img/menu/layer_49_230.png');
+    border-image-repeat: url('../img/menu/layer_49_230.png');
     width: 154px;
     height: 28px;
     text-decoration: none;
@@ -77,4 +77,14 @@ div.btn_content:hover {
 .logo_4 {
     width: 105px;
     height: 94px;
+}
+
+.elleps{
+    display: block;
+    z-index: 1;
+}
+
+.layer_2_30{
+    display: block;
+    z-index: 2;
 }
