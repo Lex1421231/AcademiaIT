@@ -4,31 +4,31 @@ a {
     cursor: pointer;
 }
 
-a:hover {
-    color: #913d88;
-    /*background-image: url('../img/menu/layer_49_230.png');
-    width: 154px;
-    height: 28px;*/
-}
-
-:hover {
-    display: block;
-    margin: auto;
-    width: 154px;
-    height: 28px;
-    background-image: url('../img/menu/layer_49_230.png');
-}
-
-
-.menu {
-    display: block;
+li {
     font-family: Roboto;
     font-size: 12px;
     line-height: 22px;
     font-weight: 700;
     text-transform: uppercase;
     color: #3b3b3b;
+}
 
+a:hover {
+    display: block;
+    margin: auto;
+    color: #913d88;
+    background-image: url('../img/menu/layer_49_230.png');
+    width: 154px;
+    height: 28px;
+}
+
+.menu {
+    display: block;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b3b3b;
 }
 
 .menu-main {
@@ -36,6 +36,12 @@ a:hover {
     gap: 22px;
     list-style-type: none;
     justify-content: center;
+}
+
+.current {
+    display: block;
+    margin: auto;
+    align-content: center;
 }
 
 .layer_46_221 {
