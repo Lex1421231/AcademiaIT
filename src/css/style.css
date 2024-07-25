@@ -3,13 +3,6 @@ body {
     height: 1650px;
 }
 
-
-a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
-
 li {
     font-family: Roboto;
     font-size: 12px;
@@ -19,11 +12,33 @@ li {
     color: #3b3b3b;
 }
 
-a:hover {
+.btn {
+    display: flex;
+    width: 166px;
+    height: 28px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+div.btn_content:hover {
+    display: flex;
     color: #913d88;
     background-image: url('../img/menu/layer_49_230.png');
     width: 154px;
     height: 28px;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
@@ -37,21 +52,10 @@ a:hover {
 
 .menu-main {
     display: flex;
-    gap: 22px;
     list-style-type: none;
     justify-content: center;
 }
 
-.current {
-    display: block;
-    margin: auto;
-    align-content: center;
-}
-
-.layer_46_221 {
-    width: 1px;
-    height: 27px;
-}
 
 .hrmenu {
     width: 1920px;
