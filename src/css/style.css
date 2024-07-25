@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #913d88;
+    /*background-image: url('../img/menu/layer_49_230.png');
+    width: 154px;
+    height: 28px;*/
+}
+
+:hover {
+    display: block;
+    margin: auto;
+    width: 154px;
+    height: 28px;
+    background-image: url('../img/menu/layer_49_230.png');
+}
+
+
+.menu {
+    display: block;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b3b3b;
+
+}
+
+.menu-main {
+    display: flex;
+    gap: 22px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.layer_46_221 {
+    width: 1px;
+    height: 27px;
+}
